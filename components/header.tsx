@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+
+import headshot from "@/public/images/headshot.jpeg";
 
 const Header: React.FC = () => {
   return (
@@ -18,18 +21,28 @@ const Header: React.FC = () => {
             </p>
           </div>
 
-          <button className="px-6 py-3 bg-[#A263B1] text-white text-[24px] lg:text-[20px] xl:text-[24px] 2xl:text-[24px] font-bold rounded-xl cursor-pointer">
+          {/* <button className="px-6 py-3 bg-[#A263B1] text-white text-[24px] lg:text-[20px] xl:text-[24px] 2xl:text-[24px] font-bold rounded-xl cursor-pointer">
             Resume
-          </button>
+          </button> */}
+          <a
+            href="/documents/Alkim-Arguz-Resume.pdf"
+            download="Alkim-Arguz-Resume.pdf"
+            className="px-6 py-3 bg-[#A263B1] text-white text-[24px] lg:text-[20px] xl:text-[24px] 2xl:text-[24px] font-bold rounded-xl cursor-pointer inline-block text-center"
+          >
+            Resume
+          </a>
         </div>
       </div>
 
       {/* Headshot Section */}
       <div className="hidden lg:flex items-center justify-center w-[35%] pb-0">
-        <img
-          src="https://via.placeholder.com/300" // Placeholder image
-          alt="Headshot"
-          className="w-full 2xl:w-[90%] rounded-full object-cover "
+        <Image
+          src={headshot}
+          alt="Alkim Arguz Headshot"
+          className="w-full 2xl:w-[90%] rounded-full object-cover"
+          width={300}
+          height={300}
+          priority
         />
       </div>
     </div>

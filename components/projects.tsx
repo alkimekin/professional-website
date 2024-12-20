@@ -8,7 +8,7 @@ interface Project {
   title: string;
   description: string;
   skills: string[];
-  imageUrl: string;
+  url: string;
 }
 
 interface ProjectsProps {
@@ -62,9 +62,8 @@ const Projects: React.FC<ProjectsProps> = ({ projects, onProjectClick }) => {
             >
               <ProjectCard
                 title={project.title}
-                description={project.description}
-                imageUrl={project.imageUrl}
                 tags={project.skills}
+                url={project.url}
                 onClick={() => onProjectClick(project)}
               />
             </div>
