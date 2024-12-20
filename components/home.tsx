@@ -39,14 +39,14 @@ const App: React.FC = () => {
       description:
         "Developed a Bitcoin JSON-RPC client to interact with the Bitcoin node for wallet creation, transaction management, and blockchain data access. Built functionality for receiving, signing, and broadcasting transactions using cryptography libraries for secure public/private key management and address generation. Implemented multi-threaded transaction listener to monitor mempool transactions and store them in a database, using mutexes and condition variables for thread synchronization. Designed an SQL query builder to manage database interactions. Developed the entire project in C++.",
       skills: ["C++", "Bitcoin Core"],
-      url: "",
+      url: "/bitcoin-wallet-tool",
     },
     {
       title: "Trading Strategy Development",
       description:
         "Applied the unscented Kalman Filter to pairs trading to exploit mean-reverting behavior in correlated and cointegrated cryptocurrency pairs. Developed a state-space model with dynamically updated parameters to predict relationships between assets, using real market data for validation. Implemented a systematic trading strategy that effectively managed risk and maximized profitability, achieving a 22.71% profit in USD over 408 days of back-testing.",
       skills: ["Python", "Numpy/Pandas"],
-      url: "",
+      url: "/pairs-trading-strategy",
     },
   ];
 
