@@ -18,7 +18,6 @@ interface ProjectsProps {
 
 const Projects: React.FC<ProjectsProps> = ({ projects, onProjectClick }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const itemsPerPage = 4;
 
   const handleNext = () => {
     setCurrentIndex((prev) => (prev + 1 < projects.length ? prev + 1 : 0));

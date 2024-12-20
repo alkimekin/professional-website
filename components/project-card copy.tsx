@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import React from "react";
 
 interface ProjectCardProps {
@@ -28,13 +27,7 @@ const skillColors: { [key: string]: string } = {
   "State-space modeling": "bg-[#284089]",
 };
 
-const ProjectCard: React.FC<ProjectCardProps> = ({
-  title,
-  description,
-  imageUrl,
-  tags,
-  onClick,
-}) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, tags, onClick }) => {
   return (
     <div
       onClick={onClick}

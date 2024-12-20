@@ -10,31 +10,7 @@ interface ProjectCardProps {
   onClick: () => void;
 }
 
-const skillColors: { [key: string]: string } = {
-  TypeScript: "bg-[#A263B1]",
-  ExpressJS: "bg-[#4F4292]",
-  Prisma: "bg-[#4F4292]",
-  BullMQ: "bg-[#4F4292]",
-  "Node.js": "bg-[#4F4292]",
-  "Next.js": "bg-[#4F4292]",
-  Redux: "bg-[#4F4292]",
-  "C++": "bg-[#A263B1]",
-  "JSON-RPC": "bg-[#5288C5]",
-  Cryptography: "bg-[#284089]",
-  SQL: "bg-[#A263B1]",
-  "Multi-threading": "bg-[#284089]",
-  "Pairs trading": "bg-[#284089]",
-  "State-space modeling": "bg-[#284089]",
-  Fastify: "bg-[#4F4292]",
-};
-
-const ProjectCard: React.FC<ProjectCardProps> = ({
-  title,
-  description,
-  imageUrl,
-  tags,
-  onClick,
-}) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, tags, onClick }) => {
   return (
     <div
       onClick={onClick}
