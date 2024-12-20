@@ -25,14 +25,14 @@ const App: React.FC = () => {
       description:
         "Built a platform that enables users to subscribe to machine learning-based auto trading algorithms to manage cryptocurrency exchange accounts. Designed and developed backend microservices for user authentication, strategy management, subscription handling, and payment services. Developed REST APIs using TypeScript, ExpressJS, and Prisma. Implemented asynchronous task management using BullMQ for periodic trade execution, processing of strategy signals, and monitoring incoming payments. Developed a Binance API client using Node.js and published it to the npm registry for public use. Focused on comprehensive error handling and testing at every step. Developed the frontend using Next.js and TypeScript.",
       skills: ["NextJS", "Fastify"],
-      url: "http://localhost:3000/algorithmic-trading-platform",
+      url: "/algorithmic-trading-platform",
     },
     {
       title: "ERP Platform",
       description:
         "Developed a storage management system for a multi-level warehouse environment. Designed and implemented RESTful APIs using ExpressJS and Prisma to efficiently fetch, update, and organize storage units. Developed the frontend using Next.js, Redux, and TypeScript.",
       skills: ["NextJS", "ExpressJS"],
-      url: "http://localhost:3000/erp-platform",
+      url: "/erp-platform",
     },
     {
       title: "Bitcoin Wallet Tool",
