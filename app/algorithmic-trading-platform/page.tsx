@@ -2,7 +2,7 @@
 
 import Footer from "@/components/footer";
 import Header from "@/components/algorithmic-trading-platform/header";
-import React, { useState } from "react";
+import React from "react";
 import ProjectOverview from "@/components/algorithmic-trading-platform/project-overview";
 import KeyFeatures from "@/components/algorithmic-trading-platform/key-features";
 import TechStack from "@/components/algorithmic-trading-platform/tech-stack";

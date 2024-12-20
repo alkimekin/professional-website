@@ -1,14 +1,6 @@
 import React from "react";
 
-import {
-  FileText,
-  Server,
-  Database,
-  Globe,
-  Box,
-  List,
-  Bitcoin,
-} from "lucide-react";
+import { FileText, Server, Database, Globe } from "lucide-react";
 
 const ReactIcon = () => (
   <svg viewBox="0 0 24 24" className="w-8 h-8" fill="currentColor">

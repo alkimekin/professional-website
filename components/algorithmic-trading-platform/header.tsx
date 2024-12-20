@@ -1,4 +1,4 @@
-import { Github, Globe } from "lucide-react";
+import { Globe } from "lucide-react";
 import React from "react";
 
 const Header: React.FC = () => {

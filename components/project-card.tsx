@@ -10,12 +10,7 @@ interface ProjectCardProps {
   onClick: () => void;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({
-  title,
-  tags,
-  url,
-  onClick,
-}) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, tags, url }) => {
   return (
     <Link href={url} className="block">
       <div
